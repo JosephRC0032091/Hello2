@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace Hello2
 {
-    public partial class Form2 : Form
+    public partial class Form1 : Form
     {
-        public Form2()
+        public Form1()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello); 
+            MessageBox.Show("Hello " + txtBxName.Text);
         }
     }
 }
